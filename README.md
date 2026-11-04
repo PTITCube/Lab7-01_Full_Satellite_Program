@@ -1,4 +1,4 @@
-# Lab7-02_Full_Satellite_Program
+# Lab7-01_Full_Satellite_Program
 
 **Chương trình Vệ tinh toàn diện**
 
