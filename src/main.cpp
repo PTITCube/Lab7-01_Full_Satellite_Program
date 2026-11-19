@@ -28,7 +28,6 @@ void setup() {
     camera.init(12, 14);
     com.init();
 
-    cdh.println("SYS: Satellite subsystems initialized.");
 }
 
 void loop() {
