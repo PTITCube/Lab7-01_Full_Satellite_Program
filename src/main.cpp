@@ -28,7 +28,7 @@ void setup() {
     camera.init(12, 14);
     com.init();
 
-    cdh.println("[SYS] Satellite subsystems initialized.");
+    cdh.println("SYS: Satellite subsystems initialized.");
 }
 
 void loop() {
@@ -70,7 +70,7 @@ void loop() {
         String telemetryString;
         serializeJson(doc, telemetryString);
 
-        cdh.printf("[TELEM] %s\n", telemetryString.c_str());
+        cdh.printf("TELEM: %s\n", telemetryString.c_str());
 
         com.sendMessage(telemetryString);
         storage.logData(telemetryString.c_str());
