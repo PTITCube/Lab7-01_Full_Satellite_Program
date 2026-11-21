@@ -19,7 +19,7 @@ unsigned long lastTelemetryTime = 0;
 const unsigned long TELEMETRY_INTERVAL = 5000;
 
 void setup() {
-    cdh.begin(115200);
+    cdh.begin();
 
     eps.init();
     sensor.init();
