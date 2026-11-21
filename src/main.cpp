@@ -23,9 +23,9 @@ void setup() {
 
     eps.init();
     sensor.init();
-    gps.init(12, 14);
+    gps.init();
     storage.init();
-    camera.init(12, 14);
+    camera.init();
     com.init();
 
 }
